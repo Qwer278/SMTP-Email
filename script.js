@@ -16,7 +16,7 @@ function myfunction() {
 
     Email.send({
         SecureToken : "c160287e-2929-489e-98ad-4df7fff83896",
-        To : 'jindalayush789@gmail.com',
+        To : `jindalayush789@gmail.com,${email}`,
         From : "awer6869@gmail.com",
         Subject : "Email from "+ name,
         Body : body
